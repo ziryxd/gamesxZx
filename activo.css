@@ -1,0 +1,33 @@
+  
+  /* Importa la fuente desde un servidor remoto (Google Fonts) */
+  @import url('https://fonts.googleapis.com/css?family=DM+Sans');
+  /*@import url('https://fonts.googleapis.com/css?family=Kenia');*/
+  
+
+
+  
+  /* Estilo para encabezados */
+  .titlemain {
+      -webkit-text-fill-color:#ffffff;
+      /*font-family: 'Arial', sans-serif;*/
+      font-family: 'DM Sans', sans-serif;
+      /*font-family: 'Kenia', sans-serif;*/
+      font-size: 270%;
+      -webkit-text-stroke: black;
+      -webkit-text-stroke-width: 0.5px;
+      background: -webkit-linear-gradient(#f30c0c,#e6cd40);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: tomato;
+  }
+  /* Estilo para el fondo principal */
+  .background {
+	background-image: url('https://cdn.pixabay.com/photo/2020/03/22/06/57/game-background-4956017_1280.jpg');
+	background-repeat: no-repeat;
+	background-size: 120%;
+
+}
+
+.activo {
+    margin-top: 200px;
+}
